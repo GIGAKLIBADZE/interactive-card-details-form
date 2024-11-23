@@ -58,7 +58,7 @@ export default function Inputs({ onSuccess }) {
       isError = true;
     }
 
-    if (onSuccess) {
+    if (!isError && onSuccess) {
       onSuccess();
     }
   };
