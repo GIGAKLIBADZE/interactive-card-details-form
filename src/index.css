@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  html {
+    font-family: "Space Grotesk" !important;
+  }
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Space Grotesk" !important;
+  padding: 0 0 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@layer components {
+  .custom-input {
+    @apply w-[327px] h-[45px] border-solid border border-[#dfdee0] rounded-[8px] bg-[#ffffff] text-[18px] font-medium text-[#21092f] indent-[12px] mt-[9px];
+  }
+
+  .label-style {
+    @apply text-[12px] font-medium text-[#21092f] tracking-[2px];
+  }
+}
