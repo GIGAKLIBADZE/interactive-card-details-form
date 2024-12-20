@@ -20,7 +20,7 @@ Live Site URL: [https://interactive-card-details-form-ten-kappa.vercel.app/]
 
 ## My process
 
-I used different point of view when starting building of the project. I split off it in different components, then started to initialize each of them with respective CSS files and with using JS in it. I used mobile first workflow. For summary, I changed my mindest for with React JS for the process of building.
+I used different point of view when starting building of the project. I split off it in different components and used Tailwind CSS for styles. I used mobile first workflow. For summary, I changed my mindest for with React JS for the process of building.
 
 ### Built with
 
